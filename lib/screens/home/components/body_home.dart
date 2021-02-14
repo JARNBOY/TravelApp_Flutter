@@ -3,6 +3,10 @@ import 'package:flutter/material.dart';
 class BodyHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Column(
+      children: [
+        Image.asset("assets/images/Red_Mountains.png"),
+      ],
+    );
   }
 }
