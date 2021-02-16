@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:travelapp_flutter/components/custom_nav_bar.dart';
 import 'package:travelapp_flutter/constants.dart';
 import 'package:travelapp_flutter/size_config.dart';
 
@@ -13,6 +15,7 @@ class HomeScreen extends StatelessWidget {
       extendBodyBehindAppBar: true,
       appBar: homeAppBar(),
       body: BodyHome(),
+      bottomNavigationBar: CustomNavBar(),
     );
   }
 
