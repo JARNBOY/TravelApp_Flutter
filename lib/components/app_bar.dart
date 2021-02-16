@@ -7,7 +7,7 @@ AppBar buildAppBar({bool isTranparent = false, String title}) {
     backgroundColor: isTranparent ? Colors.transparent : Colors.white,
     elevation: 0,
     title: Text(
-      isTranparent ? "" : title,
+      title == null ? "" : title,
       style: TextStyle(color: kTextColor, fontWeight: FontWeight.bold),
     ),
     leading: IconButton(
