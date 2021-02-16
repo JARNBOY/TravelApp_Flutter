@@ -23,7 +23,8 @@ class BodyHome extends StatelessWidget {
           VerticalSpacing(),
           PopularPlaces(),
           VerticalSpacing(),
-          TopTraveller()
+          TopTraveller(),
+          VerticalSpacing(),
         ],
       ),
     );
