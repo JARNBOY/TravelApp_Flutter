@@ -69,7 +69,7 @@ class NavItem extends StatelessWidget {
       onTap: press,
       child: Container(
         padding: EdgeInsets.all(5),
-        height: getProportionateScreenWidth(60),
+        height: getProportionateScreenWidth(70),
         width: getProportionateScreenWidth(60),
         decoration: BoxDecoration(
             color: Colors.white,
